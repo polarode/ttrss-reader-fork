@@ -97,7 +97,7 @@ public class CategoryAdapter extends MainAdapter {
 
 		final Category c = getCategory(cursor);
 
-		holder.icon.setImageResource(getImage(c.id, c.unread > 0));
+		//holder.icon.setImageResource(getImage(c.id, c.unread > 0));
 		holder.title.setText(c.title);
 		holder.unread.setText(String.valueOf(c.unread));
 		if (c.unread > 0) {

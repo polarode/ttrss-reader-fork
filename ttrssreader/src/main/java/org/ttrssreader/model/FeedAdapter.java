@@ -79,7 +79,7 @@ public class FeedAdapter extends MainAdapter {
 
 		final Feed f = getFeed(cursor);
 
-		holder.icon.setImageResource(getImage(f.unread > 0));
+		//holder.icon.setImageResource(getImage(f.unread > 0));
 		holder.title.setText(f.title);
 		holder.unread.setText(String.valueOf(f.unread));
 		if (f.unread > 0) {

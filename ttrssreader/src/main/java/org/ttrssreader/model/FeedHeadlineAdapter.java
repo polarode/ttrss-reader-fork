@@ -117,7 +117,7 @@ public class FeedHeadlineAdapter extends MainAdapter {
 		final Article a = getArticle(cursor);
 		final Feed f = DBHelper.getInstance().getFeed(a.feedId);
 
-		setImage(holder.icon, a);
+		//setImage(holder.icon, a);
 		setFeedImage(holder.feedicon, f);
 
 		holder.title.setText(a.title);

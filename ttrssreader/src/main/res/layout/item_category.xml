@@ -19,11 +19,6 @@
     android:layout_height="match_parent"
     android:orientation="horizontal">
 
-    <ImageView
-        android:id="@+id/icon"
-        style="@style/listitem"
-        android:contentDescription="@string/Empty" />
-
     <TextView
         android:id="@+id/title"
         android:layout_width="match_parent"
